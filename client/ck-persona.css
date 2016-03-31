@@ -1,0 +1,33 @@
+/* CSS declarations go here */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding-top: 65px;
+}
+
+.centre-text {
+  text-align: center;
+}
+
+.ck-featurette {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 992px) {
+  .ck-nav-container {
+  	display: table;
+  }
+  .ck-masthead-collapse, 
+  .narrow {
+	width: 700px;
+  }
+  .ck-featurette {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
