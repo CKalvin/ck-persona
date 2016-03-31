@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  padding-top: 65px;
+  padding-top: 80px;
 }
 
 .centre-text {
@@ -16,6 +16,12 @@ body {
 .ck-featurette {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+@media (min-width: 700px) {
+  .narrow {
+    width: 700px;
+  }
 }
 
 @media (min-width: 992px) {
